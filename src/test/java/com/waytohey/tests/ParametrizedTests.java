@@ -62,7 +62,7 @@ public class ParametrizedTests extends TestBase {
 
     @MethodSource("testWithMethodSource")
     @ParameterizedTest(name = "Fill profile status: {0}, aboutMe: {1}, interest: {2}")
-    void testWithMethodSource(String status, String aboutMe, Interests interest) {
+    void testChangeProfileInformation(String status, String aboutMe, Interests interest) {
         loginPage.login("sedr", "654303");
         profilePage.changeStatus(status)
                 .checkStatus(status);
