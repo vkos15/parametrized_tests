@@ -41,5 +41,4 @@ public class ProfilePage {
     public void checkThatInterestAdd(Interests interest) {
         $("#profile_view_interest").shouldHave(text(interest.getDescription())).shouldBe(visible);
     }
-
 }

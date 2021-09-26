@@ -45,8 +45,6 @@ public class ParametrizedTests extends TestBase {
         loginPage.login("sedr", "654303");
         profilePage.selectInterest(interest)
                 .checkThatInterestAdd(interest);
-
-
     }
 
 
@@ -73,8 +71,6 @@ public class ParametrizedTests extends TestBase {
         profilePage.selectInterest(interest)
                 .checkThatInterestAdd(interest);
     }
-
-
 }
 
 

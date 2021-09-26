@@ -18,7 +18,5 @@ public class TestBase {
     void beforeEach() {
         closeWebDriver();
     }
-
-
 }
 

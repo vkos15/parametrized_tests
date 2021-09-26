@@ -18,14 +18,10 @@ public class MessagePage {
 
     public void checkResultsOfSearch(String searchQuery) {
         $("#contact_list").shouldHave(text(searchQuery));
-
     }
 
     public void checkCountOfUsers(int count) {
 
         $$("#contact_list div.contact_el").shouldHave(size(count));
-
     }
-
-
 }

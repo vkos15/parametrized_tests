@@ -22,6 +22,4 @@ public class LoginPage {
     void acceptCookies() {
         $("#gdpr_popup [value='Accept']").click();
     }
-
-
 }
