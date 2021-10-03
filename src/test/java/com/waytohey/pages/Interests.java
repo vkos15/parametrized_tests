@@ -4,7 +4,6 @@ public enum Interests {
     FAMILY("Family"),
     YOGA("Yoga"),
     FITNESS("Fitness"),
-    RUNNING("Running"),
     COOKING("Cooking");
 
     private String description;
