@@ -3,8 +3,7 @@ package com.waytohey.pages;
 public enum Interests {
     FAMILY("Family"),
     YOGA("Yoga"),
-    FITNESS("Fitness"),
-    COOKING("Cooking");
+    FITNESS("Fitness");
 
     private String description;
 
